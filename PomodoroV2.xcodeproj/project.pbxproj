@@ -9,10 +9,21 @@
 /* Begin PBXBuildFile section */
 		5082BF462B7CE00900D260EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082BF452B7CE00900D260EF /* AppDelegate.swift */; };
 		5082BF482B7CE00900D260EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082BF472B7CE00900D260EF /* SceneDelegate.swift */; };
-		5082BF4A2B7CE00900D260EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082BF492B7CE00900D260EF /* ViewController.swift */; };
 		5082BF4D2B7CE00900D260EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5082BF4B2B7CE00900D260EF /* Main.storyboard */; };
 		5082BF4F2B7CE00B00D260EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5082BF4E2B7CE00B00D260EF /* Assets.xcassets */; };
 		5082BF522B7CE00B00D260EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5082BF502B7CE00B00D260EF /* LaunchScreen.storyboard */; };
+		5082BF5D2B8335C500D260EF /* PomodoroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082BF5C2B8335C500D260EF /* PomodoroModel.swift */; };
+		5082BF5F2B8335D600D260EF /* PomodoroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082BF5E2B8335D600D260EF /* PomodoroViewModel.swift */; };
+		5082BF612B83366500D260EF /* PomodoroTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082BF602B83366500D260EF /* PomodoroTabBarController.swift */; };
+		5082BF632B83369500D260EF /* StatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082BF622B83369500D260EF /* StatisticViewController.swift */; };
+		5082BF652B83369F00D260EF /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082BF642B83369F00D260EF /* SettingViewController.swift */; };
+		5082BF6A2B8357D900D260EF /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082BF692B8357D900D260EF /* MainScreenViewController.swift */; };
+		5082BF6C2B8364C500D260EF /* MainScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082BF6B2B8364C500D260EF /* MainScreenViewModel.swift */; };
+		5082BF6E2B83651300D260EF /* MainScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082BF6D2B83651300D260EF /* MainScreenModel.swift */; };
+		5082BF702B83701300D260EF /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082BF6F2B83701300D260EF /* SettingViewModel.swift */; };
+		5082BF732B83702800D260EF /* SettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082BF722B83702800D260EF /* SettingModel.swift */; };
+		5082BF752B83703A00D260EF /* StatisticViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082BF742B83703A00D260EF /* StatisticViewMode.swift */; };
+		5082BF772B83704C00D260EF /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082BF762B83704C00D260EF /* StatisticModel.swift */; };
 		7467F3BC32FB4D82C80BD59E /* Pods_PomodoroV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850E923BA575BC3DD61E9279 /* Pods_PomodoroV2.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,11 +32,22 @@
 		5082BF422B7CE00900D260EF /* PomodoroV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomodoroV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5082BF452B7CE00900D260EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5082BF472B7CE00900D260EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5082BF492B7CE00900D260EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5082BF4C2B7CE00900D260EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5082BF4E2B7CE00B00D260EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5082BF512B7CE00B00D260EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5082BF532B7CE00B00D260EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5082BF5C2B8335C500D260EF /* PomodoroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroModel.swift; sourceTree = "<group>"; };
+		5082BF5E2B8335D600D260EF /* PomodoroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroViewModel.swift; sourceTree = "<group>"; };
+		5082BF602B83366500D260EF /* PomodoroTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroTabBarController.swift; sourceTree = "<group>"; };
+		5082BF622B83369500D260EF /* StatisticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewController.swift; sourceTree = "<group>"; };
+		5082BF642B83369F00D260EF /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		5082BF692B8357D900D260EF /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		5082BF6B2B8364C500D260EF /* MainScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewModel.swift; sourceTree = "<group>"; };
+		5082BF6D2B83651300D260EF /* MainScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenModel.swift; sourceTree = "<group>"; };
+		5082BF6F2B83701300D260EF /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
+		5082BF722B83702800D260EF /* SettingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingModel.swift; sourceTree = "<group>"; };
+		5082BF742B83703A00D260EF /* StatisticViewMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewMode.swift; sourceTree = "<group>"; };
+		5082BF762B83704C00D260EF /* StatisticModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticModel.swift; sourceTree = "<group>"; };
 		850E923BA575BC3DD61E9279 /* Pods_PomodoroV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PomodoroV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B20F086DF335F5FEFDF60F0 /* Pods-PomodoroV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomodoroV2.release.xcconfig"; path = "Target Support Files/Pods-PomodoroV2/Pods-PomodoroV2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,13 +95,48 @@
 			children = (
 				5082BF452B7CE00900D260EF /* AppDelegate.swift */,
 				5082BF472B7CE00900D260EF /* SceneDelegate.swift */,
-				5082BF492B7CE00900D260EF /* ViewController.swift */,
+				5082BF5C2B8335C500D260EF /* PomodoroModel.swift */,
+				5082BF5E2B8335D600D260EF /* PomodoroViewModel.swift */,
+				5082BF602B83366500D260EF /* PomodoroTabBarController.swift */,
+				5082BF662B8336A400D260EF /* Statistic */,
+				5082BF682B8336C400D260EF /* MainScreen */,
+				5082BF672B8336B900D260EF /* Setting */,
 				5082BF4B2B7CE00900D260EF /* Main.storyboard */,
 				5082BF4E2B7CE00B00D260EF /* Assets.xcassets */,
 				5082BF502B7CE00B00D260EF /* LaunchScreen.storyboard */,
 				5082BF532B7CE00B00D260EF /* Info.plist */,
 			);
 			path = PomodoroV2;
+			sourceTree = "<group>";
+		};
+		5082BF662B8336A400D260EF /* Statistic */ = {
+			isa = PBXGroup;
+			children = (
+				5082BF622B83369500D260EF /* StatisticViewController.swift */,
+				5082BF742B83703A00D260EF /* StatisticViewMode.swift */,
+				5082BF762B83704C00D260EF /* StatisticModel.swift */,
+			);
+			path = Statistic;
+			sourceTree = "<group>";
+		};
+		5082BF672B8336B900D260EF /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				5082BF642B83369F00D260EF /* SettingViewController.swift */,
+				5082BF6F2B83701300D260EF /* SettingViewModel.swift */,
+				5082BF722B83702800D260EF /* SettingModel.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		5082BF682B8336C400D260EF /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5082BF692B8357D900D260EF /* MainScreenViewController.swift */,
+				5082BF6B2B8364C500D260EF /* MainScreenViewModel.swift */,
+				5082BF6D2B83651300D260EF /* MainScreenModel.swift */,
+			);
+			path = MainScreen;
 			sourceTree = "<group>";
 		};
 		87E1C28778E70ACCF1DD4A69 /* Pods */ = {
@@ -206,8 +263,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5082BF4A2B7CE00900D260EF /* ViewController.swift in Sources */,
+				5082BF5F2B8335D600D260EF /* PomodoroViewModel.swift in Sources */,
+				5082BF632B83369500D260EF /* StatisticViewController.swift in Sources */,
+				5082BF6E2B83651300D260EF /* MainScreenModel.swift in Sources */,
+				5082BF652B83369F00D260EF /* SettingViewController.swift in Sources */,
 				5082BF462B7CE00900D260EF /* AppDelegate.swift in Sources */,
+				5082BF752B83703A00D260EF /* StatisticViewMode.swift in Sources */,
+				5082BF5D2B8335C500D260EF /* PomodoroModel.swift in Sources */,
+				5082BF6C2B8364C500D260EF /* MainScreenViewModel.swift in Sources */,
+				5082BF772B83704C00D260EF /* StatisticModel.swift in Sources */,
+				5082BF6A2B8357D900D260EF /* MainScreenViewController.swift in Sources */,
+				5082BF732B83702800D260EF /* SettingModel.swift in Sources */,
+				5082BF702B83701300D260EF /* SettingViewModel.swift in Sources */,
+				5082BF612B83366500D260EF /* PomodoroTabBarController.swift in Sources */,
 				5082BF482B7CE00900D260EF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
