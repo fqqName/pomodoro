@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		500047F72B87B0CD00160192 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500047F62B87B0CD00160192 /* MainView.swift */; };
 		5082BF462B7CE00900D260EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082BF452B7CE00900D260EF /* AppDelegate.swift */; };
 		5082BF482B7CE00900D260EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082BF472B7CE00900D260EF /* SceneDelegate.swift */; };
 		5082BF4D2B7CE00900D260EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5082BF4B2B7CE00900D260EF /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		43C2124CD8697877DCBF58A7 /* Pods-PomodoroV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomodoroV2.debug.xcconfig"; path = "Target Support Files/Pods-PomodoroV2/Pods-PomodoroV2.debug.xcconfig"; sourceTree = "<group>"; };
+		500047F62B87B0CD00160192 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		5082BF422B7CE00900D260EF /* PomodoroV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomodoroV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5082BF452B7CE00900D260EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5082BF472B7CE00900D260EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 			children = (
 				5082BF692B8357D900D260EF /* MainScreenViewController.swift */,
 				5082BF6B2B8364C500D260EF /* MainScreenViewModel.swift */,
+				500047F62B87B0CD00160192 /* MainView.swift */,
 				5082BF6D2B83651300D260EF /* MainScreenModel.swift */,
 			);
 			path = MainScreen;
@@ -276,6 +279,7 @@
 				5082BF732B83702800D260EF /* SettingModel.swift in Sources */,
 				5082BF702B83701300D260EF /* SettingViewModel.swift in Sources */,
 				5082BF612B83366500D260EF /* PomodoroTabBarController.swift in Sources */,
+				500047F72B87B0CD00160192 /* MainView.swift in Sources */,
 				5082BF482B7CE00900D260EF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,11 +443,12 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 0.11;
 				PRODUCT_BUNDLE_IDENTIFIER = dd.PomodoroV2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -470,11 +475,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=iphoneos*]" = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 0.11;
 				PRODUCT_BUNDLE_IDENTIFIER = dd.PomodoroV2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

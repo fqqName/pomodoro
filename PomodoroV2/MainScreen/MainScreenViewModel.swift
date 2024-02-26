@@ -20,29 +20,33 @@ class MainScreenViewModel{
         self.flowModel = flowModel
     }
     
-    func updateView(){
-        guard let mainScreenView = mainScreenView else {return}
-        let timeString = formatTime(mainScreenModel.timeRemainig)
-        mainScreenView.updateTimerLabel(timeString)
-    }
+    //    func updateView(){
+    //        guard let mainScreenView = mainScreenView else {return}
+    //        let timeString = formatTime(mainScreenModel.timeRemainig)
+    //        mainScreenView.updateTimerLabel(timeString)
+    //    }
     
     func startFlow(){
         flowModel.toggleState()
-        updateView()
+        //        updateView()
     }
     
     func pauseFlow(){
-//        mainScreenModel.timeRemainig
-//        flowModel.workDutation
+        //        mainScreenModel.timeRemainig
+        //        flowModel.workDutation
     }
     
-    func resetFlow(){
-        
+    @objc func resetFlow(){
+        print("reset")
     }
     
-    private func formatTime(_ timeInterval: TimeInterval) -> String{
-        let minutes = Int(timeInterval) / 60
-        let sec = Int(timeInterval) % 60
-        return String(format: "%02i:%02i", minutes, sec)
+    func resetButtonPressed() {
+        print("Reset button pressed")
     }
+        //    private func formatTime(_ timeInterval: TimeInterval) -> String{
+        //        let minutes = Int(timeInterval) / 60
+        //        let sec = Int(timeInterval) % 60
+        //        return String(format: "%02i:%02i", minutes, sec)
+        //    }
+    
 }
